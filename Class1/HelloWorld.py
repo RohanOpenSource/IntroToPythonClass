@@ -1,6 +1,8 @@
 print("Hello World") #prints the value of the string inside
 text = "Hello World" # this is a variable. It is currently being assigned a string value
 print(text) # we are now printing that string value
+#What if we wanted to print out only hello?
+print(text[0:5]) # the first index we want is 0 (since all lists start with the index 0. The last index we want is 4 so we put 5 as are endpoint since the endpoint is excluded
 
 a = 5 # these variables are being assigned integer values (aka numbers)
 b = 10
